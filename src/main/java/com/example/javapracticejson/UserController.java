@@ -124,7 +124,7 @@ public class UserController implements Initializable {
         int resultSum = (int) tableView.getItems().stream()
                 .mapToInt(user -> user.getUserId())
                 .count();
-
+        //Test commit
         userAmountLabel.setText("Sum: " + String.valueOf(resultSum));
     }
 }
