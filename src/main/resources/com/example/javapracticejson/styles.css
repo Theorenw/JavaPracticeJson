@@ -1,0 +1,9 @@
+.root {
+    -fx-background-color: pink;
+    -fx-font: bold italic 15pt "Arial"
+}
+
+#header {
+    -fx-text-fill: white;
+    -fx-font: bold 50pt "Forte";
+}
